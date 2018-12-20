@@ -1,0 +1,12 @@
+/**index.wxss**/
+.first{
+  width: 100%;
+
+}
+.second{
+  position:absolute;
+  font-size: 20px;
+  top: 65%;
+  text-indent:2em;
+  line-height:1.5em;
+}

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<image class='first' src='{{ image_url }}'></image>
+<view class='second'>
+{{ word }}
+</view>

@@ -1,2 +1,5 @@
-# Small-program-test
-Small program test
+# 天气微信小程序
+- 调用微信小程序定位API
+- 调用第三方天气接口
+- 调用一言 API 获取每日一段话
+- 调用一图 API 获取每日一张图

@@ -1,0 +1,30 @@
+<!--100%布局好像不好使-->
+<view class="container" style="background-image: url(https://s1.ax2x.com/2018/03/21/Ukk0H.jpg);" height= "{{ height }}">
+<loading hidden="{{loadingHidden}}">加载天气...</loading>
+  <view class='top'>
+  <view class='head'>{{ city }}</view>
+  <view class='one'>{{ weather_data[0].temperature }}</view>
+  <view class='two'>{{ weather_data[0].date }}</view>
+  <view class='three'>{{ weather_data[0].weather }}- - -{{ weather_data[0].wind }}</view>
+  </view>
+  <view class='foot'>
+    <view class='foot_one'>
+    {{ weather_data[1].date }}
+    {{ weather_data[1].temperature }}
+    {{ weather_data[1].weather }}
+    {{ weather_data[1].wind }}
+    </view>
+    <view class='foot_two'>
+    {{ weather_data[2].date }}
+    {{ weather_data[2].temperature }}
+    {{ weather_data[2].weather }}
+    {{ weather_data[2].wind }}
+    </view>
+    <view class='foot_three'>
+    {{ weather_data[3].date }}
+    {{ weather_data[3].temperature }}
+    {{ weather_data[3].weather }}
+    {{ weather_data[3].wind }}
+    </view>
+  </view>
+</view>

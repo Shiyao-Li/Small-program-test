@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/weather/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"balck",
+    "selectedColor":"#E3E3E3",
+    "borderStyle":"black",
+    "backgroundColor":"#FFFFFF",
+    "list":[
+      {"pagePath":"pages/index/index",
+      "iconPath":"image/index.jpg",
+      "text":"主页"
+      },{
+        "pagePath": "pages/weather/index",
+        "iconPath": "image/index.jpg",
+        "text": "看看天气"
+      }
+    ]
+  }
+}

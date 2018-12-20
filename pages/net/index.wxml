@@ -1,0 +1,14 @@
+<!--pages/net/index.wxml-->
+<input bindinput='binput' name='input' placeholder='输入搜索的歌曲名和歌手' class='input'></input>
+<button type='default' bindtap='search'>搜索</button>
+<scroll-view class='scroll' scroll-y bindscrolltolower="searchScrollLower">  
+  <!--列表渲染  -->  
+    <block wx:for="{{songs}}" wx:for-item="item" >  
+      <view class='item-container' >
+        <!-- <text class='title' name="{{ item.id }}" style="float:left; ">{{item.name}}---{{item.ar[0].name}}</text> -->
+  <!-- audio.wxml -->
+         <audio poster="{{item.al.picUrl}}" name="{{item.name}}" author="{{item.ar[0].name}}" 
+         src="http://music.163.com/song/media/outer/url?id={{ item.id }}.mp3" id="myAudio" controls loop ></audio>
+      </view>  
+  </block> 
+ </scroll-view> 
